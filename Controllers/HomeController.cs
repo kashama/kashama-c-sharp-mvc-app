@@ -11,18 +11,24 @@ namespace MYMVCAPP.Controllers
 {
     public class HomeController : Controller
     {
+
         private readonly ILogger<HomeController> _logger;
+
+        public String Index()
+        {
+            return "Life is good";
+        }
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
+/*         public IActionResult Index()
         {
             return View();
         }
-
+ */
         public IActionResult Privacy()
         {
             return View();
