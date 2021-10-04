@@ -15644,6 +15644,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\bijka\\MYMVCAPP\\Views\\Book\\GetBookById.cshtml",
+      "TargetPath": "Views\\Book\\GetBookById.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bijka\\MYMVCAPP\\Views\\Book\\SearchBooks.cshtml",
+      "TargetPath": "Views\\Book\\SearchBooks.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bijka\\MYMVCAPP\\Views\\Shared\\ContactUs.cshtml",
+      "TargetPath": "Views\\Shared\\ContactUs.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\bijka\\MYMVCAPP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15651,6 +15666,21 @@
     {
       "FilePath": "c:\\Users\\bijka\\MYMVCAPP\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bijka\\MYMVCAPP\\Views\\Home\\Innovations.cshtml",
+      "TargetPath": "Views\\Home\\Innovations.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bijka\\MYMVCAPP\\Views\\Book\\GetAllBooks.cshtml",
+      "TargetPath": "Views\\Book\\GetAllBooks.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bijka\\MYMVCAPP\\Views\\Home\\AboutUs.cshtml",
+      "TargetPath": "Views\\Home\\AboutUs.cshtml",
       "FileKind": "mvc"
     }
   ],

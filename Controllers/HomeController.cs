@@ -1,43 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using MYMVCAPP.Models;
+using System;
+using MYMVCAPP.Controllers;
+
 
 namespace MYMVCAPP.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController: Controller
     {
-
-        private readonly ILogger<HomeController> _logger;
-
-        public String Index()
+        //view methods creation
+        public ViewResult  Index()//first view
         {
-            return "Life is good";
+            var obj = new {id =1, Name ="Kashama"};
+            return View(obj);
         }
-
-        public HomeController(ILogger<HomeController> logger)
+        public ViewResult AboutUs()//second view
         {
-            _logger = logger;
+           
+            return View();
         }
-
-/*         public IActionResult Index()
+        public ViewResult ContactUs()
         {
             return View();
         }
- */
-        public IActionResult Privacy()
+        public ViewResult Innovations()
         {
             return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            
         }
     }
 }

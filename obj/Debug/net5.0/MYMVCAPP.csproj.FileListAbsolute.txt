@@ -9,7 +9,6 @@ C:\Users\bijka\MYMVCAPP\bin\Debug\net5.0\ref\MYMVCAPP.dll
 C:\Users\bijka\MYMVCAPP\bin\Debug\net5.0\MYMVCAPP.pdb
 C:\Users\bijka\MYMVCAPP\bin\Debug\net5.0\MYMVCAPP.Views.dll
 C:\Users\bijka\MYMVCAPP\bin\Debug\net5.0\MYMVCAPP.Views.pdb
-C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\MYMVCAPP.csproj.AssemblyReference.cache
 C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\MYMVCAPP.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\MYMVCAPP.AssemblyInfoInputs.cache
 C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\MYMVCAPP.AssemblyInfo.cs
@@ -38,3 +37,10 @@ C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\ref\MYMVCAPP.dll
 C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\MYMVCAPP.pdb
 C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\MYMVCAPP.genruntimeconfig.cache
 C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\MYMVCAPP.csproj.CopyComplete
+C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
+C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\Razor\Views\Book\GetAllBooks.cshtml.g.cs
+C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\Razor\Views\Book\GetBookById.cshtml.g.cs
+C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\Razor\Views\Book\SearchBooks.cshtml.g.cs
+C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\Razor\Views\Shared\ContactUs.cshtml.g.cs
+C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\Razor\Views\Home\Innovations.cshtml.g.cs
+C:\Users\bijka\MYMVCAPP\obj\Debug\net5.0\MYMVCAPP.csprojAssemblyReference.cache

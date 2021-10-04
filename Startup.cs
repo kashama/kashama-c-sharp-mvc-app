@@ -25,7 +25,7 @@ namespace MYMVCAPP
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();//THIS METHOD IS USED TO TELL ASP.NET CORE KNOW THAT WE ARE GOING TO USE CONTROLLER AND VIEWS IN OUR APPLICATION
-            //services.AddMvc();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,7 +44,7 @@ namespace MYMVCAPP
             }
             //my first middleware
 
-           /*  app.Use(async(context, next)=>
+             app.Use(async(context, next)=>
             {
                 await context.Response.WriteAsync("Hello from my first middleware \n");
                 await next(); // this method allow to pass from the first middleware to the second middleware
@@ -61,19 +61,17 @@ namespace MYMVCAPP
             app.Use(async(context, next)=>
             {
                 await context.Response.WriteAsync("Hello from my third middleware\n");
-            
                 await context.Response.WriteAsync("Hello from my third middleware response\n");
             });
- */
-          
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            app.UseStaticFiles();//allow to use static files(wwwroot files)
+            app.UseStaticFiles(new StaticFileOptions());//to use static files outsite of wwwroot directory
 
             app.UseRouting();//this moddleware is used to map the url to a particular resource.
 
             app.UseAuthorization();
              // TO  READ ENVIRONMENT PROPERTIES
-             /* app.UseEndpoints(endpoints =>
+            app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context => {
                     if (env.IsDevelopment())
@@ -98,19 +96,19 @@ namespace MYMVCAPP
                 endpoints.Map("/", async context => {
                     await context.Response.WriteAsync("Hello everyone");
                 });
-            }); */
+            }); 
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapDefaultControllerRoute();
             });
            
-          /*   app.UseEndpoints(endpoints =>
+            app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-            }); */
+            }); 
         }
     }
 }
